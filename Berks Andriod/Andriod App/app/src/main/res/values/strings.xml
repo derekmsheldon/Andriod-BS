@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Reading-Berks Self Storage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_pay">Pay</string>
+    <string name="title_rent">Rent</string>
+    <string name="title_info">Info</string>
+    <!--Offline screen-->
+    <string name="offline_message_1">Whoops!</string>
+    <string name="offline_message_2">Slow or no internet connections \n Please check your internet connection</string>
+    <string name="try_again">Try again</string>
+
+    <!--No internet connection dialog-->
+    <string name="no_connection_message">Please check your internet connection</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

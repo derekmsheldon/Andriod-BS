@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--Offline screen-->
+    <dimen name="offline_message_1_text_size">20sp</dimen>
+    <dimen name="offline_message_2_text_size">17sp</dimen>
+</resources>

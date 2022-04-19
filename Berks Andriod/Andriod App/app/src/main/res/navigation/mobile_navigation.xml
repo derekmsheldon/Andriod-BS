@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/home">
+    <fragment
+        android:id="@+id/home"
+        android:name="com.app.berksstorage.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/toPay"
+            app:destination="@id/pay" />
+    </fragment>
+    <fragment
+        android:id="@+id/pay"
+        android:name="com.app.berksstorage.ui.pay.PayFragment"
+        android:label="fragment_pay"
+        tools:layout="@layout/fragment_pay" >
+        <action
+            android:id="@+id/toRent"
+            app:destination="@id/rent" />
+    </fragment>
+    <fragment
+        android:id="@+id/rent"
+        android:name="com.app.berksstorage.ui.rent.RentFragment"
+        android:label="fragment_rent"
+        tools:layout="@layout/fragment_rent" >
+        <action
+            android:id="@+id/toInfo"
+            app:destination="@id/info" />
+    </fragment>
+    <fragment
+        android:id="@+id/info"
+        android:name="com.app.berksstorage.ui.information.InformationFragment"
+        android:label="fragment_information"
+        tools:layout="@layout/fragment_information" />
+</navigation>
